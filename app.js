@@ -14,6 +14,11 @@ app.get('/hello', (req, res) => {
     res.send('Konnichiha');
 });
 
+app.get('/nihao', (req, res) => {
+    res.send('nihao');
+});
+
+
 app.listen(PORT, () => {
     console.log(`Server is listening at http://localhost:${PORT}`);
 });
